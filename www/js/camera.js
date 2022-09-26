@@ -90,7 +90,7 @@ function uploadPhoto(imageURI) {
 	options.chunkedMode = false;
 	var ft = new FileTransfer();
 
-	ft.upload(imageURI, "http://myuopevents.com/php/upload.php", win, fail, options);
+	ft.upload(imageURI, "<your URL>/php/upload.php", win, fail, options);
 }
 
 function win(r) {
