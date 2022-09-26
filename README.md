@@ -1,1 +1,0 @@
-# Camera-Plugin-Example2
